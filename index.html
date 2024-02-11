@@ -23,6 +23,46 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- PreLoader-->
+  <style>
+      #preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff; /* Set background color as desired */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: opacity 0.5s smooth; /* Add transition for opacity */
+        opacity: 1; /* Initially set opacity to 1 */
+    }
+    #preloader.hidden {
+        opacity: 0; /* Set opacity to 0 when hidden */
+        pointer-events: none; /* Disable pointer events when hidden */
+    }
+    #main-content {
+        display: none; /* Initially hide the main content */
+        opacity: 0; /* Initially set opacity to 0 */
+        transition: opacity 0.7s smooth; /* Add transition for opacity */
+    }
+    #main-content.show {
+        display: block; /* Show the main content */
+        opacity: 1; /* Set opacity to 1 when shown */
+    }
+</style>
+<!-- Add any necessary scripts -->
+<script>
+window.onload = function() {
+    // Hide the pre-loader after 2 seconds
+    setTimeout(function() {
+        document.getElementById('preloader').classList.add('hidden'); // Hide the pre-loader
+        document.getElementById('main-content').classList.add('show'); // Show the main content
+    }, 2000); // 2000 milliseconds = 2 seconds
+}
+</script>
+  <!-- ************* -->
   <!--
     - custom js link
   -->
@@ -30,12 +70,14 @@
 </head>
 
 <body>
-
+  <!-- Preloader -->
+  <object type="text/html" data="preLoader.html" width="100%" height="100%" id='preloader'></object>
   <!--
     - #MAIN
   -->
 
-  <main>
+
+  <main id="main-content">
 
     <!--
       - #SIDEBAR

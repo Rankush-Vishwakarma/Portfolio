@@ -312,7 +312,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 200px;
+  max-height: 215px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1400,7 +1400,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar {
-    max-height: 200px;
+    max-height: 215px;
     margin-bottom: 30px;
   }
 
