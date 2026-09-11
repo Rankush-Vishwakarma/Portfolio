@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rankush Vishwakarma - Senior Data Engineer</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rankush Vishwakarma — Senior Data Engineer</title>
+<link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
   <!--
     - custom css link
@@ -24,1467 +22,743 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
   <!-- PreLoader-->
-  <style>
-      #preloader {
-    position: fixed;
-    inset: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #121212; /* same as preloader.html */
-    z-index: 9999;
-    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
-    transform-origin: center center; /* ensures explosion from center */
-    opacity: 1;
-  }
-    #preloader.hidden {
-        opacity: 0; /* Set opacity to 0 when hidden */
-        pointer-events: none; /* Disable pointer events when hidden */
-    }
-    #main-content {
-        display: none; /* Initially hide the main content */
-        opacity: 0; /* Initially set opacity to 0 */
-        transition: opacity 0.7s smooth; /* Add transition for opacity */
-    }
-    #main-content.show {
-        display: block; /* Show the main content */
-        opacity: 1; /* Set opacity to 1 when shown */
-    }
-</style>
-<!-- Add any necessary scripts -->
-<script>
-window.onload = function () {
-    const preloader = document.getElementById('preloader');
-    const mainContent = document.getElementById('main-content');
 
-    setTimeout(() => {
-        preloader.style.transition = 'transform 0.6s ease-out, opacity 0.6s ease-out';
-        preloader.style.transform = 'scale(2)';
-        preloader.style.opacity = '0';
-
-        setTimeout(() => {
-            preloader.style.display = 'none';
-            mainContent.style.display = 'block';
-            setTimeout(() => {
-                mainContent.style.opacity = '1';
-            }, 10);
-        }, 600);
-    }, 1500);
-};
-</script>
-  <!-- ************* -->
-  <!--
-    - custom js link
-  -->
-  <script async src="./assets/js/script.js"></script>
 </head>
-
 <body>
-  <!-- Preloader -->
-<div id="preloader">
-   <svg id="e0D7ZBtOImG1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-300 -340 600 400" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"><defs><radialGradient id="e0D7ZBtOImG6-fill" cx="0" cy="0" r="0.5" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0.5 0.5)"><stop id="e0D7ZBtOImG6-fill-0" offset="0%" stop-color="#fa01fc"/><stop id="e0D7ZBtOImG6-fill-1" offset="100%" stop-color="rgba(250,1,252,0)"/></radialGradient><radialGradient id="e0D7ZBtOImG7-fill" cx="0" cy="0" r="0.5" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0.5 0.5)"><stop id="e0D7ZBtOImG7-fill-0" offset="0%" stop-color="#0054ff"/><stop id="e0D7ZBtOImG7-fill-1" offset="100%" stop-color="rgba(0,84,255,0)"/></radialGradient><filter id="e0D7ZBtOImG8-filter" x="-150%" width="400%" y="-150%" height="400%"><feColorMatrix id="e0D7ZBtOImG8-filter-hue-rotate-0" type="hueRotate" values="0" result="result"/></filter><linearGradient id="e0D7ZBtOImG11-fill" x1="0" y1="0.5" x2="1" y2="0.5" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="e0D7ZBtOImG11-fill-0" offset="0%" stop-color="#0054ff"/><stop id="e0D7ZBtOImG11-fill-1" offset="100%" stop-color="#fc0137"/></linearGradient><radialGradient id="e0D7ZBtOImG13-fill" cx="0" cy="0" r="0.763019" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="matrix(0 -1 0.807221 0 0.934765 0.5)"><stop id="e0D7ZBtOImG13-fill-0" offset="24%" stop-color="#000"/><stop id="e0D7ZBtOImG13-fill-1" offset="100%" stop-color="#fff"/></radialGradient><radialGradient id="e0D7ZBtOImG14-fill" cx="0" cy="0" r="0.5" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0.5 0.5)"><stop id="e0D7ZBtOImG14-fill-0" offset="0%" stop-color="#fa01fc"/><stop id="e0D7ZBtOImG14-fill-1" offset="100%" stop-color="rgba(252,1,55,0)"/></radialGradient><radialGradient id="e0D7ZBtOImG15-fill" cx="0" cy="0" r="0.5" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0.5 0.5)"><stop id="e0D7ZBtOImG15-fill-0" offset="0%" stop-color="#fff"/><stop id="e0D7ZBtOImG15-fill-1" offset="100%" stop-color="rgba(255,255,255,0)"/></radialGradient><linearGradient id="e0D7ZBtOImG17-fill" x1="0.218881" y1="0.921618" x2="0.575964" y2="0.269703" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="e0D7ZBtOImG17-fill-0" offset="0%" stop-color="#000"/><stop id="e0D7ZBtOImG17-fill-1" offset="100%" stop-color="#d347ff"/></linearGradient><linearGradient id="e0D7ZBtOImG19-fill" x1="0.218881" y1="0.921618" x2="0.575964" y2="0.269703" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="e0D7ZBtOImG19-fill-0" offset="0%" stop-color="#000"/><stop id="e0D7ZBtOImG19-fill-1" offset="100%" stop-color="#d347ff"/></linearGradient><linearGradient id="e0D7ZBtOImG20-fill" x1="0.218881" y1="0.921618" x2="0.575964" y2="0.269703" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="e0D7ZBtOImG20-fill-0" offset="0%" stop-color="#000"/><stop id="e0D7ZBtOImG20-fill-1" offset="100%" stop-color="#d347ff"/></linearGradient><radialGradient id="e0D7ZBtOImG27-fill" cx="0" cy="0" r="0.766616" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0.636744 0.566145)"><stop id="e0D7ZBtOImG27-fill-0" offset="62%" stop-color="rgba(211,71,255,0)"/><stop id="e0D7ZBtOImG27-fill-1" offset="100%" stop-color="#fff"/></radialGradient><radialGradient id="e0D7ZBtOImG30-fill" cx="0" cy="0" r="0.5" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0.5 0.5)"><stop id="e0D7ZBtOImG30-fill-0" offset="0%" stop-color="#fff"/><stop id="e0D7ZBtOImG30-fill-1" offset="100%" stop-color="rgba(255,255,255,0)"/></radialGradient><linearGradient id="e0D7ZBtOImG31-stroke" x1="1.01278" y1="0.912121" x2="-0.03944" y2="0.00449" spreadMethod="pad" gradientUnits="objectBoundingBox" gradientTransform="translate(0 0)"><stop id="e0D7ZBtOImG31-stroke-0" offset="0%" stop-color="#fff"/><stop id="e0D7ZBtOImG31-stroke-1" offset="100%" stop-color="rgba(255,255,255,0)"/></linearGradient></defs><g transform="matrix(.68 0 0 0.68 10-140)"><g id="e0D7ZBtOImG3" opacity="0.5"><path id="e0D7ZBtOImG4" d="M200,0c.000001-109.316555-89.54305-200-200-200s-199.999999,89.885762-200,200" opacity="0.5" fill="none" stroke="#fff" stroke-width="2"/><path id="e0D7ZBtOImG5" d="M200,0c.000001-109.316555-89.54305-200-200-200s-199.999999,89.885762-200,200" transform="matrix(.866025-.5 0.5 0.866025 0 0)" opacity="0.5" fill="none" stroke="#fff" stroke-width="2"/></g><ellipse rx="151" ry="151" transform="translate(134.256884-96.72358)" opacity="0.25" fill="url(#e0D7ZBtOImG6-fill)" stroke-width="0"/><ellipse rx="151" ry="151" transform="translate(-142.916008 49)" opacity="0.38" fill="url(#e0D7ZBtOImG7-fill)" stroke-width="0"/><g id="e0D7ZBtOImG8" mask="url(#e0D7ZBtOImG21)" filter="url(#e0D7ZBtOImG8-filter)"><ellipse rx="277.941173" ry="277.941173" transform="matrix(.68 0 0 0.68 0 0)" opacity="0.8" stroke-width="0"/><g mask="url(#e0D7ZBtOImG12)"><ellipse rx="168.09308" ry="168.09308" fill="url(#e0D7ZBtOImG11-fill)" stroke-width="0"/><mask id="e0D7ZBtOImG12" mask-type="luminance" x="-150%" y="-150%" height="400%" width="400%"><ellipse rx="168.09308" ry="168.09308" transform="matrix(0 1-1 0 0 0)" fill="url(#e0D7ZBtOImG13-fill)" stroke-width="0"/></mask></g><ellipse rx="277.941173" ry="277.941173" transform="matrix(.68 0 0 0.68 0-140)" fill="url(#e0D7ZBtOImG14-fill)" stroke-width="0"/><ellipse id="e0D7ZBtOImG15" rx="277.941173" ry="277.941173" transform="matrix(.68 0 0 0.68 0-60)" opacity="0.25" fill="url(#e0D7ZBtOImG15-fill)" stroke-width="0"/><g id="e0D7ZBtOImG16" transform="matrix(.965926-.258819 0.258819 0.965926 0 0)"><path id="e0D7ZBtOImG17" style="mix-blend-mode:screen" d="M-314.167894,121.222762c68.37375-47.951818,130.93536,25.721957,149.760721,77.555559c22.259285,61.288543,50.812996,116.56177,130.618732,125.507375-54.27346,20.352546-159.664992,17.881849-218.789885-43.249163s-61.589568-129.74749-61.589568-159.813771Z" transform="translate(33.788441-56.805063)" opacity="0.38" fill="url(#e0D7ZBtOImG17-fill)" stroke-width="1.024"/><g id="e0D7ZBtOImG18"><path id="e0D7ZBtOImG19" style="mix-blend-mode:screen" d="M-241.884025,-9.988618c7.711285,65.186627,87.944615,102.130341,151.937914,107.420456c81.948484,5.546737,139.16864-12.285676,188.827621,54.741996-27.378901,244.257403-276.603355,283.737326-387.205825,179.956012s-23.95015-300.030146,46.44029-342.118464Z" transform="translate(115.391394-166.06185)" opacity="0.349273" fill="url(#e0D7ZBtOImG19-fill)" stroke-width="1.024"/></g><path id="e0D7ZBtOImG20" style="mix-blend-mode:screen" d="M-292.359856,81.636297c50.071889-13.817956,117.965055,48.774361,150.41758,86.565797c40.267513,44.471244,77.469889,77.688504,148.180351,104.157465-46.159374,87.904626-194.945289,98.090428-269.600964,24.091823s-50.233758-181.121756-28.996967-214.815085Z" transform="translate(74.589917-111.433457)" opacity="0.38" fill="url(#e0D7ZBtOImG20-fill)" stroke-width="1.024"/></g><mask id="e0D7ZBtOImG21" mask-type="luminance" x="-150%" y="-150%" height="400%" width="400%"><g id="e0D7ZBtOImG22"><path id="e0D7ZBtOImG23" d="M-143.776898,0c0-79.405788,64.37111-143.776898,143.776898-143.776898s143.776899,64.37111,143.776899,143.776898-64.371111,143.776899-143.776899,143.776899-143.776898-64.371111-143.776898-143.776899Z" fill="#fff" stroke-width="0"/><path id="e0D7ZBtOImG24" d="M-150,0c0-82.842712,67.157288-150,150-150s150,67.157288,150,150-67.157288,150-150,150-150-67.157288-150-150Z" transform="matrix(1.093491 0 0 0.961682 0 0)" opacity="0.38" fill="#fff" stroke-width="0"/><path id="e0D7ZBtOImG25" d="M-150,0c0-82.842712,67.157288-150,150-150s150,67.157288,150,150-67.157288,150-150,150-150-67.157288-150-150Z" transform="matrix(.737871 0.737871-.69802 0.69802 0 0)" opacity="0.38" fill="#fff" stroke-width="0"/><path id="e0D7ZBtOImG26" d="M-150,0c0-82.842712,67.157288-150,150-150s150,67.157288,150,150-67.157288,150-150,150-150-67.157288-150-150Z" transform="matrix(0 1.043507-.987149 0 0 0)" opacity="0.38" fill="#fff" stroke-width="0"/></g></mask></g><path id="e0D7ZBtOImG27" d="M-137.256263,0c0-75.80454,61.451723-137.256263,137.256263-137.256263s137.256263,61.451723,137.256263,137.256263-61.451723,137.256263-137.256263,137.256263-137.256263-61.451723-137.256263-137.256263Z" fill="url(#e0D7ZBtOImG27-fill)" stroke-width="0"/><g id="e0D7ZBtOImG28"><ellipse rx="200" ry="200" opacity="0.5" fill="none" stroke="#fff" stroke-width="2"/><ellipse id="e0D7ZBtOImG30" rx="39.46285" ry="39.46285" transform="translate(200 0)" opacity="0.2" fill="url(#e0D7ZBtOImG30-fill)" stroke-width="8" stroke-linecap="round"/><path id="e0D7ZBtOImG31" d="M0,-200c110.45695,0,200,89.54305,200,200" fill="none" stroke="url(#e0D7ZBtOImG31-stroke)" stroke-width="8" stroke-linecap="round" stroke-dasharray="0.01,14.26"/><path id="e0D7ZBtOImG32" d="M200,0c0,110.45695-89.54305,200-200,200s-200-89.54305-200-200" opacity="0.5" fill="none" stroke="#fff" stroke-width="2"/><path id="e0D7ZBtOImG33" d="M200,0c0,110.45695-89.54305,200-200,200s-200-89.54305-200-200" transform="matrix(.866025-.5 0.5 0.866025 0 0)" opacity="0.5" fill="none" stroke="#fff" stroke-width="2"/></g></g>
-<script><![CDATA[
-(function(s,i,u,o,c,w,d,t,n,x,e,p,a,b){(a=Array.from(d.querySelectorAll('svg#' + i.root)).filter(n=> !n.svgatorPlayer)[0]||{}).svgatorPlayer={ready:(function(a){b=[];return function(c){return c?(b.push(c),a.svgatorPlayer):b}})(a)};w[o]=w[o]||{};w[o][s]=w[o][s]||[];w[o][s].push(i);e=d.createElementNS(n,t);e.async=true;e.setAttributeNS(x,'href',[u,s,'.','j','s','?','v','=',c].join(''));e.setAttributeNS(null,'src',[u,s,'.','j','s','?','v','=',c].join(''));p=d.getElementsByTagName(t)[0];p.parentNode.insertBefore(e,p);})('91c80d77',{"root":"e0D7ZBtOImG1","version":"2022-05-04","animations":[{"elements":{"e0D7ZBtOImG3":{"transform":{"keys":{"r":[{"t":0,"v":0},{"t":3000,"v":180}],"s":[{"t":0,"v":{"x":1,"y":1},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"x":0.920668,"y":0.920668},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"x":1,"y":1}}]}}},"e0D7ZBtOImG4":{"d":[{"t":0,"v":["M",200,0,"C",200.000001,-109.316555,110.45695,-200,0,-200,"C",-110.45695,-200,-199.999999,-110.114238,-200,0],"e":[0.55,0.085,0.68,0.53]},{"t":1500,"v":["M",200,0,"C",200,0,110.45695,0,0,0,"C",-110.45695,0,-200,0,-200,0],"e":[0.25,0.46,0.45,0.94]},{"t":3000,"v":["M",200,0,"C",200,110.45695,110.45695,200,0,200,"C",-110.45695,200,-200,110.45695,-200,0]}]},"e0D7ZBtOImG5":{"d":[{"t":0,"v":["M",200,0,"C",200.000001,-109.316555,110.45695,-200,0,-200,"C",-110.45695,-200,-199.999999,-110.114238,-200,0],"e":[0.55,0.085,0.68,0.53]},{"t":1500,"v":["M",200,0,"C",200,0,110.45695,0,0,0,"C",-110.45695,0,-200,0,-200,0],"e":[0.25,0.46,0.45,0.94]},{"t":3000,"v":["M",200,0,"C",200,110.45695,110.45695,200,0,200,"C",-110.45695,200,-200,110.45695,-200,0]}]},"e0D7ZBtOImG8":{"transform":{"keys":{"s":[{"t":0,"v":{"x":1,"y":1},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"x":0.9,"y":0.9},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"x":1,"y":1}}]}},"#filter":{"keys":[{"t":0,"v":[{"type":"hue-rotate","value":0}],"e":[0.42,0,0.58,1]},{"t":1500,"v":[{"type":"hue-rotate","value":-45}],"e":[0.42,0,0.58,1]},{"t":3000,"v":[{"type":"hue-rotate","value":0}]}],"data":{"items":[["hue-rotate","e0D7ZBtOImG8-filter-hue-rotate-0"]]}}},"e0D7ZBtOImG15":{"opacity":[{"t":0,"v":0.25},{"t":1500,"v":0},{"t":3000,"v":0.25}]},"e0D7ZBtOImG16":{"transform":{"keys":{"r":[{"t":0,"v":-15,"e":[0.42,0,0.58,1]},{"t":1500,"v":45,"e":[0.42,0,0.58,1]},{"t":3000,"v":-15}]}}},"e0D7ZBtOImG17":{"d":[{"t":0,"v":["M",-314.167894,121.222762,"C",-245.794144,73.270944,-183.232534,146.944719,-164.407173,198.778321,"C",-142.147888,260.066864,-113.594177,315.340091,-33.788441,324.285696,"C",-88.061901,344.638242,-193.453433,342.167545,-252.578326,281.036533,"C",-311.703219,219.905521,-314.167894,151.289043,-314.167894,121.222762,"Z"],"e":[0.42,0,0.58,1]},{"t":3000,"v":["M",-220.075987,-49.575083,"C",-230.666563,49.745406,-145.101677,75.607662,-67.481214,66.855611,"C",32.475498,55.585049,98.344319,15.696669,138.908026,100.247697,"C",119.643211,412.05718,-172.975626,464.193602,-299.108878,347.544695,"C",-425.24213,230.895792,-311.703218,-3.859717,-220.075987,-49.575083,"Z"],"e":[0.25,0.46,0.45,0.94]}],"transform":{"data":{"t":{"x":57.875257,"y":-70.652439}},"keys":{"o":[{"t":0,"v":{"x":-24.086816,"y":13.847376,"type":"corner"}},{"t":3000,"v":{"x":98.317613,"y":-150.037805,"type":"corner"}}]}},"opacity":[{"t":1700,"v":0.38,"e":[0.42,0,1,1]},{"t":3000,"v":0}]},"e0D7ZBtOImG18":{"transform":{"keys":{"r":[{"t":1000,"v":0,"e":[0.42,0,0.58,1]},{"t":2000,"v":-58.469922,"e":[0.42,0,0.58,1]},{"t":3000,"v":0}]}}},"e0D7ZBtOImG19":{"d":[{"t":0,"v":["M",-241.884025,-9.988618,"C",-234.17274,55.198009,-153.93941,92.141723,-89.946111,97.431838,"C",-7.997627,102.978575,49.222529,85.146162,98.88151,152.173834,"C",71.502609,396.431237,-177.721845,435.91116,-288.324315,332.129846,"C",-398.926786,228.348535,-312.274465,32.0997,-241.884025,-9.988618,"Z"],"e":[0.288922,0.57899,0.606405,1]},{"t":990,"v":["M",-220.075987,-49.575083,"C",-230.666563,49.745406,-145.101677,75.607662,-67.481214,66.855611,"C",32.475498,55.585049,98.344319,15.696669,138.908026,100.247697,"C",119.643211,412.05718,-172.975626,464.193602,-299.108878,347.544695,"C",-425.24213,230.895792,-311.703218,-3.859717,-220.075987,-49.575083,"Z"],"e":[1,0]},{"t":1000,"v":["M",-314.167894,121.222762,"C",-245.794144,73.270944,-183.232534,146.944719,-164.407173,198.778321,"C",-142.147888,260.066864,-113.594177,315.340091,-33.788441,324.285696,"C",-88.061901,344.638242,-193.453433,342.167545,-252.578326,281.036533,"C",-311.703219,219.905521,-314.167894,151.289043,-314.167894,121.222762,"Z"],"e":[0.433203,0,0.682004,0.615475]},{"t":3000,"v":["M",-241.884025,-9.988618,"C",-234.17274,55.198009,-153.93941,92.141723,-89.946111,97.431838,"C",-7.997627,102.978575,49.222529,85.146162,98.88151,152.173834,"C",71.502609,396.431237,-177.721845,435.91116,-288.324315,332.129846,"C",-398.926786,228.348535,-312.274465,32.0997,-241.884025,-9.988618,"Z"],"e":[0.288922,0.57899,0.606405,1]}],"transform":{"data":{"t":{"x":57.875257,"y":-70.652439}},"keys":{"o":[{"t":0,"v":{"x":57.516137,"y":-95.409411,"type":"corner"}},{"t":990,"v":{"x":98.317613,"y":-150.037805,"type":"corner"},"e":[1,0]},{"t":1000,"v":{"x":-24.086816,"y":13.847376,"type":"corner"}},{"t":3000,"v":{"x":57.516137,"y":-95.409411,"type":"corner"}}]}},"opacity":[{"t":0,"v":0.349273,"e":[0.486384,0.258886,1,1]},{"t":990,"v":0,"e":[1,0]},{"t":1010,"v":0.38,"e":[0.317878,0,0.656906,0.377262]},{"t":2700,"v":0.38,"e":[0.317878,0,0.656906,0.377262]},{"t":3000,"v":0.349273,"e":[0.486384,0.258886,1,1]}]},"e0D7ZBtOImG20":{"d":[{"t":0,"v":["M",-292.359856,81.636297,"C",-242.287967,67.818341,-174.394801,130.410658,-141.942276,168.202094,"C",-101.674763,212.673338,-64.472387,245.890598,6.238075,272.359559,"C",-39.921299,360.264185,-188.707214,370.449987,-263.362889,296.451382,"C",-338.018563,222.452778,-313.596647,115.329626,-292.359856,81.636297,"Z"],"e":[0.317996,0.384525,0.566797,1]},{"t":1980,"v":["M",-220.075987,-49.575083,"C",-230.666563,49.745406,-145.101677,75.607662,-67.481214,66.855611,"C",32.475498,55.585049,98.344319,15.696669,138.908026,100.247697,"C",119.643211,412.05718,-172.975626,464.193602,-299.108878,347.544695,"C",-425.24213,230.895792,-311.703218,-3.859717,-220.075987,-49.575083,"Z"],"e":[1,0]},{"t":2000,"v":["M",-314.167894,121.222762,"C",-245.794144,73.270944,-183.232534,146.944719,-164.407173,198.778321,"C",-142.147888,260.066864,-113.594177,315.340091,-33.788441,324.285696,"C",-88.061901,344.638242,-193.453433,342.167545,-252.578326,281.036533,"C",-311.703219,219.905521,-314.167894,151.289043,-314.167894,121.222762,"Z"],"e":[0.393595,0,0.711078,0.42101]},{"t":3000,"v":["M",-292.359856,81.636297,"C",-242.287967,67.818341,-174.394801,130.410658,-141.942276,168.202094,"C",-101.674763,212.673338,-64.472387,245.890598,6.238075,272.359559,"C",-39.921299,360.264185,-188.707214,370.449987,-263.362889,296.451382,"C",-338.018563,222.452778,-313.596647,115.329626,-292.359856,81.636297,"Z"],"e":[0.317996,0.384525,0.566797,1]}],"transform":{"data":{"t":{"x":57.875257,"y":-70.652439}},"keys":{"o":[{"t":0,"v":{"x":16.71466,"y":-40.781018,"type":"corner"}},{"t":1980,"v":{"x":98.317613,"y":-150.037805,"type":"corner"},"e":[1,0]},{"t":2000,"v":{"x":-24.086816,"y":13.847376,"type":"corner"}},{"t":3000,"v":{"x":16.71466,"y":-40.781018,"type":"corner"}}]}},"opacity":[{"t":700,"v":0.38,"e":[0.42,0,1,1]},{"t":1980,"v":0,"e":[1,0]},{"t":2000,"v":0.38,"e":[0.42,0,1,1]}]},"e0D7ZBtOImG22":{"transform":{"keys":{"s":[{"t":0,"v":{"x":1,"y":1},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"x":0.9,"y":0.9},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"x":1,"y":1}}]}}},"e0D7ZBtOImG23":{"transform":{"keys":{"s":[{"t":0,"v":{"x":1,"y":1},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"x":0.9,"y":0.9},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"x":1,"y":1}}]}}},"e0D7ZBtOImG24":{"transform":{"keys":{"r":[{"t":0,"v":0},{"t":3000,"v":180}],"s":[{"t":0,"v":{"x":1.093491,"y":0.961682},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"x":1.028427,"y":0.994833},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"x":1.093491,"y":0.961682}}]}}},"e0D7ZBtOImG25":{"transform":{"keys":{"r":[{"t":0,"v":45},{"t":3000,"v":225}],"s":[{"t":0,"v":{"x":1.043507,"y":0.987149},"e":[0.317996,0.384525,0.566797,1]},{"t":1000,"v":{"x":1.093491,"y":0.961682},"e":[0.42,0,0.58,1]},{"t":2500,"v":{"x":1.028427,"y":0.994833},"e":[0.393595,0,0.711078,0.42101]},{"t":3000,"v":{"x":1.043507,"y":0.987149},"e":[0.317996,0.384525,0.566797,1]}]}}},"e0D7ZBtOImG26":{"transform":{"keys":{"r":[{"t":0,"v":90},{"t":3000,"v":270}],"s":[{"t":0,"v":{"x":1.043507,"y":0.987149},"e":[0.288922,0.57899,0.606405,1]},{"t":500,"v":{"x":1.028427,"y":0.994833},"e":[0.42,0,0.58,1]},{"t":2000,"v":{"x":1.093491,"y":0.961682},"e":[0.433203,0,0.682004,0.615475]},{"t":3000,"v":{"x":1.043507,"y":0.987149},"e":[0.288922,0.57899,0.606405,1]}]}}},"e0D7ZBtOImG27":{"transform":{"keys":{"r":[{"t":0,"v":0},{"t":3000,"v":360}],"s":[{"t":0,"v":{"x":1,"y":1},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"x":0.8,"y":0.8},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"x":1,"y":1}}]}},"fill":[{"t":0,"v":{"t":"g","s":[{"c":{"r":211,"g":71,"b":255,"a":0},"o":0.62},{"c":{"r":255,"g":255,"b":255,"a":1},"o":1}],"r":"e0D7ZBtOImG27-fill","gt":[1,0,0,1,0.636744,0.566145],"c":{"x":0,"y":0},"rd":0.766616},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"t":"g","s":[{"c":{"r":211,"g":71,"b":255,"a":0},"o":0.62},{"c":{"r":255,"g":255,"b":255,"a":1},"o":1}],"r":"e0D7ZBtOImG27-fill","gt":[1,0,0,1,0.636744,0.566145],"c":{"x":0,"y":0},"rd":0.964148},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"t":"g","s":[{"c":{"r":211,"g":71,"b":255,"a":0},"o":0.62},{"c":{"r":255,"g":255,"b":255,"a":1},"o":1}],"r":"e0D7ZBtOImG27-fill","gt":[1,0,0,1,0.636744,0.566145],"c":{"x":0,"y":0},"rd":0.766616}}]},"e0D7ZBtOImG28":{"transform":{"keys":{"r":[{"t":0,"v":0},{"t":3000,"v":180}],"s":[{"t":0,"v":{"x":1,"y":1},"e":[0.42,0,0.58,1]},{"t":1500,"v":{"x":0.920668,"y":0.920668},"e":[0.42,0,0.58,1]},{"t":3000,"v":{"x":1,"y":1}}]}}},"e0D7ZBtOImG30":{"transform":{"data":{"t":{"x":200,"y":0}},"keys":{"r":[{"t":0,"v":0},{"t":3000,"v":180}]}}},"e0D7ZBtOImG31":{"transform":{"keys":{"r":[{"t":0,"v":0},{"t":3000,"v":180}]}}},"e0D7ZBtOImG32":{"d":[{"t":0,"v":["M",200,0,"C",200,110.45695,110.45695,200,0,200,"C",-110.45695,200,-200,110.45695,-200,0],"e":[0.55,0.085,0.68,0.53]},{"t":1500,"v":["M",200,0,"C",200,0,110.45695,0,0,0,"C",-110.45695,0,-200,0,-200,0],"e":[0.25,0.46,0.45,0.94]},{"t":3000,"v":["M",200,0,"C",200.000001,-109.316555,110.45695,-200,0,-200,"C",-110.45695,-200,-199.999999,-110.114238,-200,0]}]},"e0D7ZBtOImG33":{"d":[{"t":0,"v":["M",200,0,"C",200,110.45695,110.45695,200,0,200,"C",-110.45695,200,-200,110.45695,-200,0],"e":[0.55,0.085,0.68,0.53]},{"t":1500,"v":["M",200,0,"C",200,0,110.45695,0,0,0,"C",-110.45695,0,-200,0,-200,0],"e":[0.25,0.46,0.45,0.94]},{"t":3000,"v":["M",200,0,"C",200.000001,-109.316555,110.45695,-200,0,-200,"C",-110.45695,-200,-199.999999,-110.114238,-200,0]}]}},"s":"MDWA1YzhhMzE3MCzg0ODE3MDgzPQTc4N2U3ZDMExNDk0MjNmWTFNmM2YzYlIzMOTczNzg4MTc0VNzI4Mzc4N2UV3ZDMxNDlDNDBAzYjMxNzg4MWzc0ODE3MDgzYNzg3ZTdkODIMzMTQ5M2YzYjQMxNzU3ODdiNS2IzMTQ5UzQwIM2IzMTcwN2IB4Mzc0ODFQN2VQ3MDgzNzQzMATQ5NzU3MDdiXODJBNzQzYjMPxODI3Zjc0NzRQ3MzMxNDk0MNDNiMzE3NTdmWODIzMTQ5NDICzZjhj"}],"options":"MDRAxMDgyMjk3YTTdiNjg3OTdiQMjlONDEyOTcWzNzY2ODZiRDFI5ODQ/"},'https://cdn.svgator.com/ply/','__SVGATOR_PLAYER__','2022-05-04',window,document,'script','http://www.w3.org/2000/svg','http://www.w3.org/1999/xlink')
-]]></script>
-</svg>
-</div>
-  <!--
-    - #MAIN
-  -->
 
-
-  <main id="main-display">
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Rankush Vishwakarma" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Rankush Vishwakarma">Rankush<br>Vishwakarma</h1>
-
-        </div>
-        <div class="job-title">
-          <p class="title">Senior Data Engineer</p>
-          <p class="title">Python Developer</p>
-          <p class="title">ETL Specialist</p>
-          <p class="title">ML Systems Engineer</p>
-          <p class="title">AI Platform Developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <address><a href="mailto:Er.rankush.vishwakarma.in@gmail.com" class="contact-link">Er.rankush.vishwakarma.in@gmail.com</a></address>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+918253015353" class="contact-link">+91-825-301-5353</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2001-08-08">August 08, 2001</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Indore, Madhya Pradesh, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/rankushvishwakarma/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://github.com/Rankush-Vishwakarma" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-          <li class="social-item">
-            <a href="https://AceInterview.in" class="social-link">
-              <ion-icon name="globe-outline"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link"  data-nav-link>Certifications</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am a <b>Senior Data Engineer</b> with <b>5 years</b> building production data systems at scale. Currently at <b>Appinventiv</b> leading enterprise data migrations and heading the complete data team. Previously at <b>DXC Technology</b> where I built ETL pipelines processing millions of insurance records across <b>1,000+ database tables</b>.
-          </p>
-
-          <p>
-            I also founded <b>AceInterview.in</b> — an AI interview platform that's served <b>500+ users</b>, and <b>StressAway</b> — a mental health platform delivering <b>100+ therapy sessions monthly</b>. I have been recognized with <b>3x Facilitator Awards (2021–2024)</b> for technical leadership and project delivery excellence, and served as a <b>Keynote Speaker at NMIMS Institute</b> on AI/Automation strategies (10K+ audience).
-            <br/><br/>
-            <b>Recent Impact:</b> ✓ Reduced ETL runtime by 75% on enterprise systems &nbsp;•&nbsp; ✓ Migrated 500+ tables (MySQL → PostgreSQL) with 30% performance improvement &nbsp;•&nbsp; ✓ Built automated RCA workflows reducing downtime by 40% &nbsp;•&nbsp; ✓ Created policy comparison tool saving 180+ hours monthly
-            <br/><br/>
-            <b>Tech:</b> Python, PySpark, SQL, Apache Airflow, Azure Data Factory, AWS, Databricks, Snowflake, dbt, Kafka
-            <br/>
-            Open to consulting projects and advisory roles in data engineering and AI automation.
-            <br/>
-            📧 <a href="mailto:Er.rankush.vishwakarma.in@gmail.com" style="color:#ffdb70;">Er.rankush.vishwakarma.in@gmail.com</a> &nbsp; 🌐 <a href="https://aceinterview.in" style="color:#ffdb70;">aceinterview.in</a>
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Engineering</h4>
-
-                <p class="service-item-text">
-                  I architect enterprise <b>ETL/ELT pipelines</b> across 1,000+ tables, achieving 75% runtime reduction and 99.9% reliability. I develop policy data comparison tools reducing analysis time from 6 hours to 15 minutes, saving 180+ hours/month with <b>Python, PySpark, SQL, Apache Airflow, Databricks, dbt, Snowflake</b>.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Cloud & AI icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Cloud & AI Solutions</h4>
-
-                <p class="service-item-text">
-                  I lead cloud data migrations with zero downtime, achieving 3x faster data refresh and 95+% uptime in production pipelines. I build AI-powered platforms with <b>GPT-4 APIs, FastAPI, Machine Learning, NLP</b>, and build automated RCA workflows using LLMs that reduce operational downtime by 40%.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="Leadership icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Technical Leadership</h4>
-
-                <p class="service-item-text">
-                  I lead and manage complete data engineering teams, driving <b>100% on-time delivery</b> while mentoring engineers. I train <b>500+ professionals</b> in ML/Python, reducing external dependencies by 60%. I implement <b>CI/CD, GitHub Actions</b> and provide technical mentorship and architectural direction across teams.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Senior Data Engineer | Data Team Lead @Appinventiv &nbsp;|&nbsp; Ex-DXC Technology</h3>
-          <p style="color: #ffdb70; margin-top: 10px;">Keynote Speaker - NMIMS Institute | AI/Automation strategies (10K+ audience)</p>
-
-        </section>
-
-      </article>
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-                <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Professional Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Senior Data Engineer | Data Team Lead @Appinventiv</h4>
-
-              <span>Oct 2025 — Present | Noida, Uttar Pradesh, India (Hybrid)</span>
-
-              <p class="timeline-text">
-                <li style="color: whitesmoke;">Leading the complete data engineering team of the company, driving architectural decisions and delivery excellence</li>
-                <li style="color: whitesmoke;">Improved reliability of mission-critical B2B SaaS pipelines serving enterprise customers</li>
-                <li style="color: whitesmoke;">Automated multi-step workflows across ingestion, transformation, enrichment &amp; reporting layers</li>
-                <li style="color: whitesmoke;">Reduced pipeline failures and data lag, significantly improving SLA compliance</li>
-                <li style="color: whitesmoke;">Led architectural redesign for core ETL systems, modernizing the data platform</li>
-                <li style="color: whitesmoke;">Migrated 500+ tables (MySQL → PostgreSQL) with 30% performance improvement</li>
-                <li style="color: whitesmoke;">Built automated RCA workflows reducing operational downtime by 40%</li>
-                <li style="color: whitesmoke;">Collaborated with cross-functional teams to optimize analytics delivery</li>
-                <li style="color: whitesmoke;"><b>Core Tech:</b> Python, SQL, Airflow, dbt, Snowflake, Azure, AWS, Kafka, Databricks</li>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Senior Data Engineer | Python Developer @DXC Technology</h4>
-
-              <span>Jan 2021 — Sep 2025 | Indore, India (Remote)</span>
-
-              <p class="timeline-text">
-                <li style="color: whitesmoke;">Architected enterprise ETL pipelines across 1,000+ tables, achieving 75% speed improvement and 99.9% reliability</li>
-                <li style="color: whitesmoke;">Developed policy data comparison tool reducing analysis time from 6 hours to 15 minutes, saving 180+ hours/month</li>
-                <li style="color: whitesmoke;">Built automated reporting systems with 98% accuracy, eliminating 15+ hours/week of manual validation</li>
-                <li style="color: whitesmoke;">Led 2 critical projects with 100% on-time delivery while mentoring 3 junior developers</li>
-                <li style="color: whitesmoke;">Trained 500+ professionals in ML/Python, reducing external dependencies by 60%</li>
-                <li style="color: whitesmoke;">Reduced ETL runtime by 50% on 250+ MySQL tables using ADF, Azure SQL, and parallelized tasks</li>
-                <li style="color: whitesmoke;">Modernized ETL to ELT on Azure Cloud, achieving 3x faster data refresh and 95+% uptime in production pipelines</li>
-                <li style="color: whitesmoke;">Recognized with <b>3x Facilitator Awards (2021–2024)</b> for technical leadership and project delivery excellence</li>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">AceInterview.in - AI Interview Platform</h4>
-              <span style="color: #ffdb70;">Founder & Developer- Side project | 2022-2024</span>
-
-              <span>Tech Stack: Python, FastAPI, GPT-4 APIs, JavaScript, HTML, TAILWIND CSS, Azure, GitHub Actions</span>
-
-              <p class="timeline-text">
-                <li style="color: whitesmoke;">Built full-stack AI platform serving 500+ users with 95% satisfaction rate</li>
-                <li style="color: whitesmoke;">Developed multi-modal AI assistant with real-time scoring and personalized feedback</li>
-                <li style="color: whitesmoke;">Created resume analyzer with job matching, improving user success rates by 35%</li>
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">StressAway - Mental Health Platform</h4>
-              <span style="color: #ffdb70;">Co-Founder & Tech Lead | 2022-2024</span>
-
-              <span>Tech Stack: Python, FastAPI, MongoDB, Docker, OpenRouter APIs, NLP</span>
-
-              <p class="timeline-text">
-                <li style="color: whitesmoke;">Co-founded platform delivering 100+ monthly therapy sessions with 87% user satisfaction</li>
-                <li style="color: whitesmoke;">Built conversational AI with emotion-sensitive responses and stress analysis</li>
-              </p>
-
-            </li>
-            
-          </ol>
-
-        </section>
-        
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">Core Skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python & PySpark</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SQL & Database Systems</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">ETL/ELT & Apache Airflow</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Azure Cloud & Databricks</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">dbt & Snowflake</h5>
-                <data value="82">82%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 82%;"></div>
-              </div>
-
-            </li>
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Machine Learning & NLP</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">LLM APIs & Prompt Engineering</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Docker & CI/CD</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">AWS & Kafka</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">SSIS & IBM Db2</h5>
-                <data value="75">75%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
-              </div>
-            </li>
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">Team Management & Leadership</h5>
-                <data value="88">88%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 88%;"></div>
-              </div>
-            </li>
-          
-        </ul>
-        </section>
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education & Certifications</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">B.Tech Computer Science - AMITY University, MP</h4>
-
-              <span>2017 — 2021</span>
-
-              <p class="timeline-text">
-                Graduated with a B.Tech in Computer Science and Engineering, specializing in innovative AI and Data Science systems. Notable capstone project involved building advanced AI systems with machine learning and natural language processing capabilities. This educational foundation provided deep expertise in computer science fundamentals, algorithms, and modern AI/ML technologies that I apply in my professional data engineering career.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Professional Certifications</h4>
-
-              <span>2023 — 2024</span>
-
-              <p class="timeline-text">
-                <li style="color: whitesmoke;"><b>Machine Learning & Deep Learning</b> - Ineuron (2023)</li>
-                <li style="color: whitesmoke;"><b>SQL Server Integration Services</b> - LinkedIn Learning (2023)</li>
-                <li style="color: whitesmoke;">Multiple advanced certifications in AI, ML, and Data Engineering technologies</li>
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="trophy-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Key Achievements</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Technical Excellence & Leadership</h4>
-
-              <span>2021 — Present</span>
-
-              <p class="timeline-text">
-                <li style="color: whitesmoke;">🏆 <b>3x Facilitator Awards (2021-2024)</b> - Technical leadership and project delivery excellence at DXC Technology</li>
-                <li style="color: whitesmoke;">🎤 <b>Keynote Speaker - NMIMS Institute</b> - AI/Automation strategies (10K+ audience)</li>
-                <li style="color: whitesmoke;">👥 <b>Data Team Lead @ Appinventiv</b> - Leading the complete data engineering team</li>
-                <li style="color: whitesmoke;">📈 <b>Key Performance Metrics:</b> 75% ETL runtime reduction • 500+ tables migrated • 40% downtime reduction • 180+ hours/month saved • 100% project delivery rate</li>
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-
-
-      </article>
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>AI Platforms</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Data Engineering</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Machine-Learning</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Deep-Learning</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>NLP Projects</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Time Series Projects</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>AI Platforms</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Data Engineering</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Machine-Learning</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Deep-Learning</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>NLP Projects</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Time Series Projects</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="AI Platforms">
-              <a href="https://AceInterview.in">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/aceinterview.png" alt="AceInterview" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">AceInterview.in - AI Interview Platform</h3>
-
-                <p class="project-category">AI Platforms</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="AI Platforms">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/logo_color.png" alt="StressAway" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">StressAway - Mental Health Platform</h3>
-
-                <p class="project-category">AI Platforms</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Data Engineering">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/etldownload.png" alt="ETL Pipeline" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Enterprise ETL Pipelines - 1000+ Tables</h3>
-
-                <p class="project-category">Data Engineering</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Data Engineering">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/etlvselt.png" alt="Azure Cloud" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Azure Cloud ETL to ELT Modernization</h3>
-
-                <p class="project-category">Data Engineering</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="NLP Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/NLP/tree/main">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/AmazonAlexa.jpeg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Amazon-Alexa-Data-Analysis</h3>
-
-                <p class="project-category">NLP Projects</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="NLP Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/NLP/tree/main">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/EmotionDetection.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Emotion Extraction</h3>
-
-                <p class="project-category">NLP Projects</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="NLP Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/NLP/tree/main">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/yelp.png" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Yelp Rating Prediction</h3>
-
-                <p class="project-category">NLP Projects</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="NLP Projects">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Regex.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Regex Using NLP</h3>
-
-                <p class="project-category">NLP Projects</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Machine-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/SoccerPlayerRatingPrdiction">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/SoccerPlayer.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Soccer Player Rating Prediction</h3>
-
-                <p class="project-category">Machine-Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Machine-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/XGBoost_classifier">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Salary-pred.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Wage Class prediction</h3>
-
-                <p class="project-category">Machine-Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Machine-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/BostonHousePrediction">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/BostonHouse.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Boston House Prediction</h3>
-
-                <p class="project-category">Machine-Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Machine-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/BostonhousePredictionUsingRandomForest">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/BostonHouse.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Boston House Prediction-Random Forest Implementation</h3>
-
-                <p class="project-category">Machine-Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Machine-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/Titanic_decision_tree_implementation">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/TitanicData.jpg" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Titanic Survival Prediction</h3>
-
-                <p class="project-category">Machine-Learning</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Machine-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/Women_Affair_classification">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Women Affair Classification</h3>
-
-                <p class="project-category">Machine-Learning</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Machine-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/SoftwareRequirementClassifier">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Software Requirement Classification</h3>
-
-                <p class="project-category">Machine-Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Deep-Learning">
-              <a href="https://github.com/Rankush-Vishwakarma/Deep-learning">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Churn Modelling - ANN</h3>
-
-                <p class="project-category">Deep-Learning</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="ML-Ops Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Jarvis1.1">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/jarvis2.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Jarvis 1.1 (Extended)</h3>
-
-                <p class="project-category">ML-Ops Projects</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="ML-Ops Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Jarvis1.0">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/jarvis1.png" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Jarvis 1.0 (Base)</h3>
-
-                <p class="project-category">ML-Ops Projects</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Time Series Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Time-series-projects">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/airconcetration.png" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">PM2_5 Air Concentration Prediction</h3>
-
-                <p class="project-category">Time Series Projects</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Time Series Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Time-series-projects">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/TrafficPrediction.png" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title"> Traffic Time Series Prediction</h3>
-
-                <p class="project-category">Time Series Projects</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Time Series Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Time-series-projects">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Time-Series-Analysis.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">OML Streaming GRC Time Series Prediction</h3>
-
-                <p class="project-category">Time Series Projects</p>
-
-              </a>
-            </li>
-            <li class="project-item  active" data-filter-item data-category="Time Series Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Time-series-projects">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/DemandPerHour.png" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Demand Per Hour Prediction</h3>
-
-                <p class="project-category">Time Series Projects</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Time Series Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Time-series-projects">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/StockMarket.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Stock market Prediction</h3>
-
-                <p class="project-category">Time Series Projects</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Time Series Projects">
-              <a href="https://github.com/Rankush-Vishwakarma/Time_Series_Clustering">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/StockClustering.png" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Historical Stock market Time Series Clustering</h3>
-
-                <p class="project-category">Time Series Projects</p>
-
-              </a>
-            </li>
-
-            
-
-          </ul>
-
-        </section>
-
-      </article>
-
-     
-      <!-- 
-        #CERTIFICATION
-       -->
-       <article class="Certifications" data-page="Certifications">
-        <header>
-          <h2 class="h2 article-title">Certifications</h2>
-        </header>
-      
-        <section class="Certifications-section">
-          <ul class="Certifications-list">
-            <li class="Certifications-item" data-category="Pyspark Certifications">
-              <a href="https://www.linkedin.com/learning/certificates/5aea9b7c57d01752eb11b8ebb4a74df8daf8ff3174280005069cddbde6c333b8?trk=share_certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_messaging_conversation_detail%3Bqe3tPZI0T1uM7ycqXox6KQ%3D%3D">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/pysparkimages.png" alt="Pyspark" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Pyspark Essential Training Certificate</h3>
-                <h4 class="Certifications-Company">Linkedin Learning</h4>
-                
-              </a>
-            </li>
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://www.linkedin.com/learning/certificates/28211df911f398d6dc9af9d1a1bbbb002e332403b366da6447a38dfb469938fa?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3BXHneopnJSsWS46J6KULv6Q%3D%3D">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/SSIS.jpeg" alt="SSIS" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">SQL Server Integration Services</h3>
-                <h4 class="Certifications-Company">Linkedin Learning</h4>
-                
-              </a>
-            </li>
-
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://www.coursera.org/account/accomplishments/specialization/7QVJVB7T2D2C?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=s12n">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/MLSPECIALIZATION.jpeg" alt="ML" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Machine Learning Specialization</h3>
-                <h4 class="Certifications-Company">Coursera by Stanford University & DeepLearning.AI</h4>
-              </a>
-            </li>
-
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://www.coursera.org/account/accomplishments/verify/B3MJQ6TUZ75T?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/MLSPECIALIZATION.jpeg" alt="ML" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Advanced Learning Algorithms</h3>
-                <h4 class="Certifications-Company">Coursera by Stanford University</h4>
-              </a>
-            </li>
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://www.coursera.org/account/accomplishments/verify/68FJMER6NBCT?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/CERTIFICATE_LANDING_PAGE~68FJMER6NBCT.jpeg" alt="ML" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Supervised Machine Learning: Regression and Classification</h3>
-                <h4 class="Certifications-Company">Coursera by Stanford University</h4>
-              </a>
-            </li>
-
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://drive.google.com/file/d/1qC9LN4mjeFjVzKyvIDxRHYtCSnUhrHem/view">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/DeepLearning.png" alt="ML" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Deep Learning</h3>
-                <h4 class="Certifications-Company">Ineuron.ai</h4>
-              </a>
-            </li>
-
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://drive.google.com/file/d/1iYsZOqfki9hn2rhDUq4ZmtSjU8tRS-0W/view">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Screenshot 2024-02-06 225810.png" alt="ML" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Machine Learning & Deep Learning</h3>
-                <h4 class="Certifications-Company">Ineuron.ai</h4>
-              </a>
-            </li>
-
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://drive.google.com/file/d/1uAA6nQmGATKa7mnQ2d6kro-j9UR9dJ1b/view">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/Screenshot 2024-02-06 225559.png" alt="ML" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Natural Language Processing</h3>
-                <h4 class="Certifications-Company">Udemy</h4>
-              </a>
-            </li>
-            <li class="Certifications-item" data-category="SSIS Certifications">
-              <a href="https://www.coursera.org/account/accomplishments/verify/4ZBZ32KKQJPB?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course">
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-                  <img src="./assets/images/CERTIFICATE_LANDING_PAGE~4ZBZ32KKQJPB.jpeg" alt="ML" loading="lazy">
-                </figure>
-                <h3 class="Certifications-title">Unsupervised Learning, Recommenders, Reinforcement Learning</h3>
-                <h4 class="Certifications-Company">Coursera by Stanford University & DeepLearning.AI</h4>
-              </a>
-            </li>
-
-          </ul>
-        </section>
-      </article>
-
-
-     <!--
-        - #CONTACT
-      -->
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117763.55658303255!2d75.78144806742205!3d22.724109981876378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3962fcad1b410ddb%3A0x96ec4da356240f4!2sIndore%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1707576576617!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact with me</h3>
-          <ul class="social-list">
-            <li class="social-item">
-              <a href="https://www.linkedin.com/in/rankushvishwakarma/" class="social-link" id="linkedinBtn">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-            </li>
-            <li class="social-item">
-              <a href="https://github.com/Rankush-Vishwakarma" class="social-link" id="githubBtn">
-                <ion-icon name="logo-github"></ion-icon>
-              </a>
-            </li>
-      
-              <li class="social-item">
-                  <a href="#" class="social-link" id="emailBtn">
-                      <ion-icon name="mail-outline"></ion-icon>
-                  </a>
-              </li>
-              <li class="social-item">
-                  <a href="#" class="social-link" id="phoneBtn">
-                      <ion-icon name="call-outline"></ion-icon>
-                  </a>
-              </li>
-          </ul>
-          <div class="popup" id="linkedinPopup">
-            <p>Follow me @ https://www.linkedin.com/in/rankushvishwakarma/</p>
-          </div>
-          
-          <div class="popup" id="githubPopup">
-            <p>Follow me @ https://github.com/Rankush-Vishwakarma</p>
-          </div>
-          
-          <div class="popup" id="emailPopup">
-              <p>Mail Me @ Er.rankush.vishwakarma.in@gmail.com</p>
-          </div>
-          
-          <div class="popup" id="phonePopup">
-              <p>Call Me @ +918253015353</p>
-          </div>
-
-        </section>
-
-      </article>
-
+<div class="spine" aria-hidden="true"><div class="spine-runner" id="spineRunner"></div></div>
+
+<header class="run-header">
+  <div class="run-header-inner">
+    <div class="run-id">
+      <span class="run-label"></span>
+      <span class="run-name">Rankush Vishwakarma</span>
+    </div>
+    <div class="run-status">
+      <span class="dot dot-active" aria-hidden="true"></span>
+      <span>status: <b>active</b></span>
+      <span class="sep">·</span>
+      <span>role: data-engineering</span>
+      <span class="sep">·</span>
+      <span>region: noida-in</span>
+    </div>
+  </div>
+</header>
+
+<nav class="topnav">
+  <button class="nav-link active" data-nav="about">about</button>
+  <button class="nav-link" data-nav="experience">experience</button>
+  <button class="nav-link" data-nav="portfolio">portfolio</button>
+  <button class="nav-link" data-nav="certifications">certifications</button>
+  <button class="nav-link" data-nav="contact">contact</button>
+</nav>
+
+<main>
+
+  <!-- ABOUT -->
+  <section class="page active" id="page-about">
+    <div class="node-marker"><span class="node-dot dot-done"></span></div>
+    <h1 class="hero-name">Rankush Vishwakarma</h1>
+    <p class="hero-role">Senior Data Engineer · Data Team Lead @ Appinventiv</p>
+
+    <p class="body-text">
+      5+ years building enterprise ETL/ELT pipelines and cloud data platforms. Currently leading data
+      engineering across three concurrent enterprise projects — a Microsoft Fabric lakehouse for
+      Coca-Cola's dispenser fleet and a churn-prediction platform processing 900+ tenant accounts among them.
+      Previously at DXC Technology, where a self-initiated reconciliation pipeline validated up to 50,000
+      insurance policy records a day against a legacy DB2 mainframe migration.
+    </p>
+
+    <div class="metric-row">
+      <div class="metric"><span class="metric-value">$850<span class="metric-unit">/mo</span></span><span class="metric-label">Azure cost saved</span></div>
+      <div class="metric"><span class="metric-value">15→2<span class="metric-unit">hrs</span></span><span class="metric-label">nightly batch runtime</span></div>
+      <div class="metric"><span class="metric-value">300+</span><span class="metric-label">discrepancies caught</span></div>
+      <div class="metric"><span class="metric-value">500+</span><span class="metric-label">tables migrated</span></div>
     </div>
 
-  </main>
+    <h2 class="section-label">stack</h2>
+    <ul class="tag-list">
+      <li>Python</li><li>SQL</li><li>PySpark</li><li>FastAPI</li>
+      <li>Microsoft Fabric</li><li>Azure Databricks</li><li>Azure Data Factory</li>
+      <li>ADLS Gen2</li><li>Synapse</li><li>Delta Lake</li><li>Azure Container Apps</li>
+      <li>Apache Airflow</li><li>PostgreSQL</li><li>MySQL</li><li>SQL Server</li><li>MongoDB</li>
+    </ul>
+
+    <p class="body-text small muted">
+      contact — <a href="mailto:rankush.vishwa@gmail.com">rankush.vishwa@gmail.com</a>
+      · <a href="tel:+918253015353">+91 825 301 5353</a>
+      · <a href="https://www.linkedin.com/in/rankushvishwakarma/" target="_blank" rel="noopener">LinkedIn</a>
+      · <a href="https://github.com/Rankush-Vishwakarma" target="_blank" rel="noopener">GitHub</a>
+    </p>
+  </section>
+
+<!-- EXPERIENCE -->
+<section class="page" id="page-experience">
+
+  <h2 class="page-title">experience</h2>
 
 
+  <!-- =========================================
+       PROFESSIONAL EXPERIENCE
+       ========================================= -->
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-  const filterButtons = document.querySelectorAll('[data-filter-btn]');
-  const selectItems = document.querySelectorAll('[data-select-item]');
-  const projectItems = document.querySelectorAll('.project-item');
+  <div class="experience-group">
 
-  filterButtons.forEach(button => {
-    button.addEventListener('click', function () {
-      filterProjects(button.textContent);
-    });
-  });
+    <h3 class="journey-label">
+      <span>//</span>
+      professional experience
+    </h3>
 
-  selectItems.forEach(item => {
-    item.addEventListener('click', function () {
-      filterProjects(item.textContent);
-    });
-  });
+    <ol class="dag-timeline">
 
-  function filterProjects(category) {
-    filterButtons.forEach(button => button.classList.remove('active'));
-    selectItems.forEach(item => item.classList.remove('active'));
+      <!-- APPINVENTIV -->
+      <li class="dag-node">
+        <span class="node-dot dot-active"></span>
 
-    filterButtons.forEach(button => {
-      if (button.textContent === category) {
-        button.classList.add('active');
-      }
-    });
+        <div class="dag-content">
 
-    selectItems.forEach(item => {
-      if (item.textContent === category) {
-        item.classList.add('active');
-      }
-    });
+          <div class="dag-head">
+            <h3>
+              Senior Data Engineer · Data Team Lead —
+              Appinventiv
+            </h3>
 
-    projectItems.forEach(project => {
-      const projectCategory = project.getAttribute('data-category');
-      if (category === 'All' || category === projectCategory) {
-        project.style.display = 'block';
-      } else {
-        project.style.display = 'none';
-      }
-    });
-  }
-});
-  </script>
+            <span class="date-range mono">
+              Aug 2025 → present
+            </span>
+          </div>
 
-<script>
-document.getElementById('emailBtn').addEventListener('mouseenter', function() {
-    closeOtherPopups('emailPopup');
-    document.getElementById('emailPopup').classList.add('active');
-});
-document.getElementById('emailBtn').addEventListener('mouseleave', function() {
-    document.getElementById('emailPopup').classList.remove('active');
-});
-document.getElementById('phoneBtn').addEventListener('mouseenter', function() {
-    closeOtherPopups('phonePopup');
-    document.getElementById('phonePopup').classList.add('active');
-});
-document.getElementById('phoneBtn').addEventListener('mouseleave', function() {
-    document.getElementById('phonePopup').classList.remove('active');
-});
-document.getElementById('githubBtn').addEventListener('mouseenter', function() {
-    closeOtherPopups('githubPopup');
-    document.getElementById('githubPopup').classList.add('active');
-});
-document.getElementById('githubBtn').addEventListener('mouseleave', function() {
-    document.getElementById('githubPopup').classList.remove('active');
-});
-document.getElementById('linkedinBtn').addEventListener('mouseenter', function() {
-    closeOtherPopups('linkedinPopup');
-    document.getElementById('linkedinPopup').classList.add('active');
-});
-document.getElementById('linkedinBtn').addEventListener('mouseleave', function() {
-    document.getElementById('linkedinPopup').classList.remove('active');
-});
-function closeOtherPopups(currentPopupId) {
-    const popups = document.querySelectorAll('.popup');
-    popups.forEach(function(popup) {
-        if (popup.id !== currentPopupId) {
-            popup.classList.remove('active');
-        }
-    });
-}
-</script>
+          <p class="dag-loc muted">
+            Noida, Uttar Pradesh, India · Hybrid
+          </p>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  
+          <ul class="dag-bullets">
+            <li>
+              Leading data engineering across 3 concurrent
+              enterprise projects; managing 2 data engineers,
+              4 data analysts, 1 AI/ML engineer
+            </li>
 
-</body>
+            <li>
+              Architecting a Microsoft Fabric medallion
+              pipeline (Bronze/Silver/Gold) for Coca-Cola
+              dispenser telemetry — live on 150 of a planned
+              1,000+ dispensers, T-1 daily batch cycle
+            </li>
 
+            <li>
+              Redesigned a client pipeline with Celery task
+              queuing + chunked data movement, cutting daily
+              bug volume from 15–20 to 4–5 over 6 sprints
+            </li>
+
+            <li>
+              Restructured Azure pod/replica configuration
+              across non-prod environments, cutting cloud
+              spend by $850/month
+            </li>
+
+            <li>
+              Built a multi-tenant churn-prediction system
+              (RetainIQ) across 900+ tenant accounts —
+              flagged ~$27K in exposure in one tracked month,
+              win-back campaigns recovered ~$5,680
+            </li>
+
+            <li>
+              Migrated 500+ tables MySQL → PostgreSQL,
+              30% performance improvement
+            </li>
+
+            <li>
+              Replaced manual client onboarding with an
+              automated onboarding + migration pipeline,
+              with alerting
+            </li>
+          </ul>
+
+          <p class="dag-tech mono muted">
+            python · sql · airflow · dbt · snowflake · azure ·
+            aws · kafka · databricks
+          </p>
+
+        </div>
+      </li>
+
+
+      <!-- DXC -->
+      <li class="dag-node">
+        <span class="node-dot dot-done"></span>
+
+        <div class="dag-content">
+
+          <div class="dag-head">
+            <h3>
+              Data Engineer &amp; Python Developer —
+              DXC Technology
+            </h3>
+
+            <span class="date-range mono">
+              Jan 2021 → Aug 2025
+            </span>
+          </div>
+
+          <p class="dag-loc muted">
+            Indore, India · Remote
+          </p>
+
+          <ul class="dag-bullets">
+            <li>
+              Self-initiated an automated daily reconciliation
+              pipeline after identifying manual validation
+              (20–30 policies/day) couldn't scale to
+              15,000–50,000 policies/day during a legacy
+              DB2-to-cloud migration — caught 300+
+              discrepancies manual review missed; still in
+              active use (v15) post-handoff
+            </li>
+
+            <li>
+              Architected enterprise ETL pipelines across
+              1,000+ tables, 75% speed improvement, 99.9%
+              reliability
+            </li>
+
+            <li>
+              Rewrote/re-indexed 250+ SQL queries and
+              restructured a nightly batch job, cutting
+              runtime from 8–9 hours to under 2
+            </li>
+
+            <li>
+              Built a policy data comparison tool, cutting
+              analysis time from 6 hours to 15 minutes —
+              180+ hours/month saved
+            </li>
+
+            <li>
+              Delivered a 15-day Python/ML training program
+              to 500+ engineers, cutting external vendor
+              dependency by 60%
+            </li>
+
+            <li>
+              Led 2 critical projects with 100% on-time
+              delivery while mentoring 3 junior developers
+            </li>
+
+            <li>
+              3× Facilitator Award recipient (2021–2024)
+              for technical leadership and delivery
+            </li>
+          </ul>
+
+          <p class="dag-tech mono muted">
+            python · sql · ssis · ibm db2 · azure data factory ·
+            azure sql
+          </p>
+
+        </div>
+      </li>
+
+    </ol>
+
+  </div>
+
+
+  <!-- =========================================
+       ENTREPRENEURIAL JOURNEY
+       ========================================= -->
+
+  <div class="experience-group entrepreneurial-journey">
+
+    <h3 class="journey-label">
+      <span>//</span>
+      entrepreneurial journey
+    </h3>
+
+    <ol class="dag-timeline">
+
+      <!-- ACEINTERVIEW -->
+      <li class="dag-node">
+        <span class="node-dot dot-shipped"></span>
+
+        <div class="dag-content">
+
+          <div class="dag-head">
+            <h3>
+              AceInterview.in — AI Interview Platform
+            </h3>
+
+            <span class="date-range mono">
+              2022 → 2024
+            </span>
+          </div>
+
+          <p class="dag-loc muted">
+            Founder &amp; Developer · side project
+          </p>
+
+          <ul class="dag-bullets">
+            <li>
+              Full-stack AI interview platform, 500+ users,
+              95% satisfaction rate
+            </li>
+
+            <li>
+              Multi-modal AI assistant with real-time scoring
+              and personalized feedback
+            </li>
+
+            <li>
+              Resume analyzer with job matching, improving
+              user success rates by 35%
+            </li>
+          </ul>
+
+          <p class="dag-tech mono muted">
+            python · fastapi · gpt-4 · javascript · tailwind ·
+            azure · github actions
+          </p>
+
+        </div>
+      </li>
+
+
+      <!-- STRESSAWAY -->
+      <li class="dag-node">
+        <span class="node-dot dot-shipped"></span>
+
+        <div class="dag-content">
+
+          <div class="dag-head">
+            <h3>
+              StressAway — Mental Health Platform
+            </h3>
+
+            <span class="date-range mono">
+              2022 → 2024
+            </span>
+          </div>
+
+          <p class="dag-loc muted">
+            Co-Founder &amp; Tech Lead · side project
+          </p>
+
+          <ul class="dag-bullets">
+            <li>
+              100+ monthly therapy sessions delivered,
+              87% user satisfaction
+            </li>
+
+            <li>
+              Conversational AI with emotion-sensitive
+              responses and stress analysis
+            </li>
+          </ul>
+
+          <p class="dag-tech mono muted">
+            python · fastapi · mongodb · docker · openrouter ·
+            nlp
+          </p>
+
+        </div>
+      </li>
+
+    </ol>
+
+  </div>
+
+  <!-- PULSELOG -->
+<li class="dag-node">
+  <span class="node-dot dot-active"></span>
+
+  <div class="dag-content">
+
+    <div class="dag-head">
+      <h3>
+        PulseLog — High-Performance Python Logging Infrastructure
+      </h3>
+
+      <span class="date-range mono">
+        2026 → present
+      </span>
+    </div>
+
+    <p class="dag-loc muted">
+      Creator · independent engineering project
+    </p>
+
+    <ul class="dag-bullets">
+
+      <li>
+        Built a high-performance Python logging system designed
+        for concurrent, high-throughput production workloads
+      </li>
+
+      <li>
+        Designed asynchronous, buffered logging architecture
+        with emphasis on producer-side overhead and concurrent correctness
+      </li>
+
+      <li>
+        Benchmarked logging throughput, CPU cost, batching,
+        and concurrency behavior against established Python logging systems
+      </li>
+
+      <li>
+        Explored performance trade-offs across queueing,
+        serialization, I/O, batching, and multi-threaded workloads
+      </li>
+
+    </ul>
+
+    <p class="dag-tech mono muted">
+      python · concurrency · async · queues · high-throughput ·
+      benchmarking · systems engineering
+    </p>
+
+  </div>
+</li>
+
+
+  <!-- =========================================
+       EDUCATION
+       ========================================= -->
+
+  <div class="experience-group education-journey">
+
+    <h3 class="journey-label">
+      <span>//</span>
+      education
+    </h3>
+
+    <ol class="dag-timeline">
+
+      <li class="dag-node">
+        <span class="node-dot dot-done"></span>
+
+        <div class="dag-content">
+
+          <div class="dag-head">
+            <h3>
+              B.Tech, Computer Science — Amity University, MP
+            </h3>
+
+            <span class="date-range mono">
+              2017 → 2021
+            </span>
+          </div>
+
+          <p class="dag-bullets small muted">
+            Capstone in applied ML/NLP systems.
+          </p>
+
+        </div>
+      </li>
+
+    </ol>
+
+  </div>
+
+</section>
+
+  <!-- PORTFOLIO -->
+  <section class="page" id="page-portfolio">
+    <h2 class="page-title">portfolio</h2>
+    <p class="body-text small muted">Rendered as a job log, not a grid — status reflects whether the work is live, shipped, or archived, and only rows with a real public artifact are linked.</p>
+
+    <div class="joblog">
+
+      <a class="joblog-row" href="#" target="_blank" rel="noopener">
+        <span class="job-status status-active">active</span>
+        <span class="job-name">Coca-Cola Fabric Lakehouse</span>
+        <span class="job-cat mono muted">data-engineering</span>
+        <span class="job-link muted">private</span>
+      </a>
+
+      <a class="joblog-row" href="https://sonnysdirect.com/prd_car_wash_equipment_innovations" target="_blank" rel="noopener">
+        <span class="job-status status-active">active</span>
+        <span class="job-name">RetainIQ — Churn Prediction &amp; Win-Back Platform</span>
+        <span class="job-cat mono muted">data-engineering / ml</span>
+        <span class="job-link muted">private</span>
+      </a>
+
+      <a class="joblog-row" href="https://pypi.org/project/pulselog/2.1.1/" target="_blank" rel="noopener">
+        <span class="job-status status-active">active</span>
+        <span class="job-name">Pulselog</span>
+        <span class="job-cat mono muted">data-engineering</span>
+        <span class="job-link muted">Public PyPi library</span>
+      </a>
+
+      <a class="joblog-row" href="https://AceInterview.in" target="_blank" rel="noopener">
+        <span class="job-status status-shipped">shipped</span>
+        <span class="job-name">AceInterview.in — AI Interview Platform</span>
+        <span class="job-cat mono muted">ai-platforms</span>
+        <span class="job-link">aceinterview.in →</span>
+      </a>
+
+      <div class="joblog-row href="https://StressAway.in" target="_blank" rel="noopener"">
+        <span class="job-status status-shipped">shipped</span>
+        <span class="job-name">StressAway — Mental Health Platform</span>
+        <span class="job-cat mono muted">ai-platforms</span>
+        <span class="job-link muted">no public link</span>
+      </div>
+
+      <div class="joblog-row nolink">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Enterprise ETL Pipelines — 1,000+ tables</span>
+        <span class="job-cat mono muted">data-engineering</span>
+        <span class="job-link muted">internal — no public link</span>
+      </div>
+
+      <div class="joblog-row nolink">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Azure Cloud ETL → ELT Modernization</span>
+        <span class="job-cat mono muted">data-engineering</span>
+        <span class="job-link muted">internal — no public link</span>
+      </div>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/NLP/tree/main" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Amazon Alexa Data Analysis</span>
+        <span class="job-cat mono muted">nlp</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/NLP/tree/main" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Emotion Extraction</span>
+        <span class="job-cat mono muted">nlp</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/NLP/tree/main" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Yelp Rating Prediction</span>
+        <span class="job-cat mono muted">nlp</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <div class="joblog-row nolink">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Regex Using NLP</span>
+        <span class="job-cat mono muted">nlp</span>
+        <span class="job-link muted">no public link</span>
+      </div>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/SoccerPlayerRatingPrdiction" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Soccer Player Rating Prediction</span>
+        <span class="job-cat mono muted">machine-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/XGBoost_classifier" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Wage Class Prediction</span>
+        <span class="job-cat mono muted">machine-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/BostonHousePrediction" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Boston House Prediction</span>
+        <span class="job-cat mono muted">machine-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/BostonhousePredictionUsingRandomForest" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Boston House Prediction — Random Forest</span>
+        <span class="job-cat mono muted">machine-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Titanic_decision_tree_implementation" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Titanic Survival Prediction</span>
+        <span class="job-cat mono muted">machine-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Women_Affair_classification" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Women Affair Classification</span>
+        <span class="job-cat mono muted">machine-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/SoftwareRequirementClassifier" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Software Requirement Classification</span>
+        <span class="job-cat mono muted">machine-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Deep-learning" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Churn Modelling — ANN</span>
+        <span class="job-cat mono muted">deep-learning</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Jarvis1.1" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Jarvis 1.1 (Extended)</span>
+        <span class="job-cat mono muted">ml-ops</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Jarvis1.0" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Jarvis 1.0 (Base)</span>
+        <span class="job-cat mono muted">ml-ops</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Time-series-projects" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">PM2.5 Air Concentration Prediction</span>
+        <span class="job-cat mono muted">time-series</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Time-series-projects" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Traffic Time Series Prediction</span>
+        <span class="job-cat mono muted">time-series</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Time-series-projects" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">OML Streaming GRC Time Series Prediction</span>
+        <span class="job-cat mono muted">time-series</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Time-series-projects" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Demand Per Hour Prediction</span>
+        <span class="job-cat mono muted">time-series</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Time-series-projects" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Stock Market Prediction</span>
+        <span class="job-cat mono muted">time-series</span>
+        <span class="job-link">github →</span>
+      </a>
+
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma/Time_Series_Clustering" target="_blank" rel="noopener">
+        <span class="job-status status-archived">archived</span>
+        <span class="job-name">Historical Stock Market Time Series Clustering</span>
+        <span class="job-cat mono muted">time-series</span>
+        <span class="job-link">github →</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="page" id="page-certifications">
+    <h2 class="page-title">certifications</h2>
+    <div class="joblog">
+      <a class="joblog-row" href="https://www.linkedin.com/learning/certificates/5aea9b7c57d01752eb11b8ebb4a74df8daf8ff3174280005069cddbde6c333b8" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">PySpark Essential Training</span>
+        <span class="job-cat mono muted">LinkedIn Learning</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://www.linkedin.com/learning/certificates/28211df911f398d6dc9af9d1a1bbbb002e332403b366da6447a38dfb469938fa" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">SQL Server Integration Services</span>
+        <span class="job-cat mono muted">LinkedIn Learning</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://www.coursera.org/account/accomplishments/specialization/7QVJVB7T2D2C" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">Machine Learning Specialization</span>
+        <span class="job-cat mono muted">Stanford / DeepLearning.AI</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://www.coursera.org/account/accomplishments/verify/B3MJQ6TUZ75T" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">Advanced Learning Algorithms</span>
+        <span class="job-cat mono muted">Coursera — Stanford</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://www.coursera.org/account/accomplishments/verify/68FJMER6NBCT" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">Supervised ML: Regression and Classification</span>
+        <span class="job-cat mono muted">Coursera — Stanford</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://drive.google.com/file/d/1qC9LN4mjeFjVzKyvIDxRHYtCSnUhrHem/view" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">Deep Learning</span>
+        <span class="job-cat mono muted">Ineuron.ai</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://drive.google.com/file/d/1iYsZOqfki9hn2rhDUq4ZmtSjU8tRS-0W/view" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">Machine Learning &amp; Deep Learning</span>
+        <span class="job-cat mono muted">Ineuron.ai</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://drive.google.com/file/d/1uAA6nQmGATKa7mnQ2d6kro-j9UR9dJ1b/view" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">Natural Language Processing</span>
+        <span class="job-cat mono muted">Udemy</span>
+        <span class="job-link">view →</span>
+      </a>
+      <a class="joblog-row" href="https://www.coursera.org/account/accomplishments/verify/4ZBZ32KKQJPB" target="_blank" rel="noopener">
+        <span class="job-status status-done">verified</span>
+        <span class="job-name">Unsupervised Learning, Recommenders, Reinforcement Learning</span>
+        <span class="job-cat mono muted">Stanford / DeepLearning.AI</span>
+        <span class="job-link">view →</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="page" id="page-contact">
+    <h2 class="page-title">contact</h2>
+    <p class="body-text">Reach out directly — no form, no middleman.</p>
+    <div class="joblog">
+      <a class="joblog-row" href="mailto:rankush.vishwa@gmail.com">
+        <span class="job-status status-link">email</span>
+        <span class="job-name">rankush.vishwa@gmail.com</span>
+        <span class="job-cat mono muted"></span>
+        <span class="job-link">send →</span>
+      </a>
+      <a class="joblog-row" href="tel:+918253015353">
+        <span class="job-status status-link">phone</span>
+        <span class="job-name">+91 825 301 5353</span>
+        <span class="job-cat mono muted"></span>
+        <span class="job-link">call →</span>
+      </a>
+      <a class="joblog-row" href="https://www.linkedin.com/in/rankushvishwakarma/" target="_blank" rel="noopener">
+        <span class="job-status status-link">linkedin</span>
+        <span class="job-name">rankushvishwakarma</span>
+        <span class="job-cat mono muted"></span>
+        <span class="job-link">open →</span>
+      </a>
+      <a class="joblog-row" href="https://github.com/Rankush Vishwakarma" target="_blank" rel="noopener">
+        <span class="job-status status-link">github</span>
+        <span class="job-name">Rankush Vishwakarma</span>
+        <span class="job-cat mono muted"></span>
+        <span class="job-link">open →</span>
+      </a>
+    </div>
+    <div class="mapbox">
+      <iframe src="https://www.google.com/maps?q=Noida,Uttar+Pradesh,India&output=embed" width="100%" height="100%" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+</main>
+
+  <script async src="./assets/js/script.js"></script></body>
 </html>
